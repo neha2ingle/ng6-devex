@@ -1,0 +1,10 @@
+
+<dx-data-grid
+    id="gridContainer"
+    [dataSource]="customers"
+    [columns]="['CompanyName', 'City', 'State', 'Phone', 'Fax']"
+    [showBorders]="true">
+
+    <dxo-load-panel [enabled]="true"></dxo-load-panel>
+    <dxo-scrolling mode="virtual"></dxo-scrolling>
+</dx-data-grid>
